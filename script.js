@@ -5,7 +5,7 @@ const counter = document.getElementById("counter");
 const incrementBtn = document.getElementById("incrementBtn");
 
 incrementBtn.addEventListener('click', function (){
-	alert(`Current Value ${counterValue}`);
+	alert(counterValue);
 	counterValue++;
 	counter.textContent = counterValue;
 })
