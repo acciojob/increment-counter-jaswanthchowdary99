@@ -1,1 +1,11 @@
 //your JS code here. If required.
+let counterValue = 0;
+
+const counter = document.getElementById("counter");
+const incrementBtn = document.getElementById("incrementBtn");
+
+incrementBtn.addEventListener('click', function (){
+	alert(`Current Value ${counterValue}`);
+	counterValue++;
+	counter.textContent = counterValue;
+})
